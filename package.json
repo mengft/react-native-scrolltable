@@ -1,0 +1,29 @@
+{
+  "name": "react-native-scrolltable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengft/react-native-scrolltable.git"
+  },
+  "keywords": [
+    "React Native",
+    "react-native-scrolltable",
+    "scrolltable"
+  ],
+  "author": "fantao.meng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mengft/react-native-scrolltable/issues"
+  },
+  "homepage": "https://github.com/mengft/react-native-scrolltable#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-native": "^0.56.0"
+  }
+}
