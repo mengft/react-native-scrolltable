@@ -19,6 +19,7 @@ import ScrollTable from "react-native-scrolltable";
 
 ```js
 <ScrollTable 
+    //initialIndex={0}
     labels={[
       { key: 0, title: "精选" },
       { key: 1, title: "推荐" },
@@ -34,6 +35,7 @@ import ScrollTable from "react-native-scrolltable";
 ## Properties
 属性  | 描述    | 类型  | 默认    
 ------ | ------ | ------  | ------
+initialIndex  | 初始Index | ```PropTypes.number ``` | ``` 0 ```
 labels  | 频道数组 | ```PropTypes.array ``` | ``` [{ key: 0, title: "精选" }, { key: 2, title: "热门" }] ```
 labelStyle | 频道标题样式  | ``` PropTypes.object ``` | ``` { color: "#FFFFFF", fontSize: 14 } ```  
 tintColor | 活跃状态标题颜色  | ``` PropTypes.string ```  | "#12cdb0"' 
